@@ -1,5 +1,5 @@
 //
-//  GPViewController.h
+//  TableViewController.h
 //  TableView Challenge
 //
 //  Created by Tom Sperling on 12/04/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GPViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end

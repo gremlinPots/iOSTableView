@@ -14,13 +14,13 @@
 		BEC292A418F97D1100EAAD55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC292A318F97D1100EAAD55 /* main.m */; };
 		BEC292A818F97D1100EAAD55 /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC292A718F97D1100EAAD55 /* GPAppDelegate.m */; };
 		BEC292AB18F97D1100EAAD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC292A918F97D1100EAAD55 /* Main.storyboard */; };
-		BEC292AE18F97D1100EAAD55 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC292AD18F97D1100EAAD55 /* GPViewController.m */; };
 		BEC292B018F97D1100EAAD55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC292AF18F97D1100EAAD55 /* Images.xcassets */; };
 		BEC292B718F97D1200EAAD55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC292B618F97D1200EAAD55 /* XCTest.framework */; };
 		BEC292B818F97D1200EAAD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2929718F97D1100EAAD55 /* Foundation.framework */; };
 		BEC292B918F97D1200EAAD55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2929B18F97D1100EAAD55 /* UIKit.framework */; };
 		BEC292C118F97D1200EAAD55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC292BF18F97D1200EAAD55 /* InfoPlist.strings */; };
 		BEC292C318F97D1200EAAD55 /* TableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC292C218F97D1200EAAD55 /* TableView_ChallengeTests.m */; };
+		BEC292CE18F97EE100EAAD55 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC292CD18F97EE100EAAD55 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		BEC292A618F97D1100EAAD55 /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
 		BEC292A718F97D1100EAAD55 /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
 		BEC292AA18F97D1100EAAD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEC292AC18F97D1100EAAD55 /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
-		BEC292AD18F97D1100EAAD55 /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
 		BEC292AF18F97D1100EAAD55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC292B518F97D1200EAAD55 /* TableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC292B618F97D1200EAAD55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BEC292BE18F97D1200EAAD55 /* TableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		BEC292C018F97D1200EAAD55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEC292C218F97D1200EAAD55 /* TableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_ChallengeTests.m; sourceTree = "<group>"; };
+		BEC292CC18F97EE100EAAD55 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		BEC292CD18F97EE100EAAD55 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				BEC292A618F97D1100EAAD55 /* GPAppDelegate.h */,
 				BEC292A718F97D1100EAAD55 /* GPAppDelegate.m */,
 				BEC292A918F97D1100EAAD55 /* Main.storyboard */,
-				BEC292AC18F97D1100EAAD55 /* GPViewController.h */,
-				BEC292AD18F97D1100EAAD55 /* GPViewController.m */,
+				BEC292CC18F97EE100EAAD55 /* TableViewController.h */,
+				BEC292CD18F97EE100EAAD55 /* TableViewController.m */,
 				BEC292AF18F97D1100EAAD55 /* Images.xcassets */,
 				BEC2929E18F97D1100EAAD55 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC292A418F97D1100EAAD55 /* main.m in Sources */,
-				BEC292AE18F97D1100EAAD55 /* GPViewController.m in Sources */,
+				BEC292CE18F97EE100EAAD55 /* TableViewController.m in Sources */,
 				BEC292A818F97D1100EAAD55 /* GPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
